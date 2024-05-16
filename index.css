@@ -10,7 +10,7 @@
 .global {
     margin: 0;
     align-items: center;
-    background-image: url(web\ and\ mobile\ page.jpg);
+    background-image: url(comp-bg.jpg);
     background-attachment: fixed;
     background-position: center; /* Center the image */
     background-size: cover;
