@@ -46,6 +46,9 @@
 .images a {
     margin-bottom: 20px;
 }
+.images a, .ending a {
+    color: aqua;
+}
 img {
     width: 60%;
     border-radius: 3px;
