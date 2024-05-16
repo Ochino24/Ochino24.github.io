@@ -10,8 +10,13 @@
 .global {
     margin: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, aliceblue, rgba(228,229,224,255));
+    background-image: url(web\ and\ mobile\ page.jpg);
+    background-attachment: fixed;
+    background-position: center; /* Center the image */
+    background-size: cover;
+    backdrop-filter: blur(10px);
     font-family: myFont2;
+    color: white;
 }
 .top {
     padding-left: 20px;
@@ -60,9 +65,12 @@ img {
     width: 80%;
     text-align: left;
 }
-.ending {
+.footer {
+    padding: 8px;
     padding-left: 15px;
     font-size: 20px;
+    background-color: rgba(0,0,128, 0.7);
+    text-align: center;
 }
 .selected {
     font-size: 25px;
