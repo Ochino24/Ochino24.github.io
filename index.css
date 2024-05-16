@@ -30,8 +30,8 @@
 }
 .top-left a:link, 
 .top-right a:link, 
-.images a:link, 
-.ending a:link {
+.images a:link,  
+.footer a:link{
     text-decoration: none;
 }
 .summary {
@@ -46,7 +46,7 @@
 .images a {
     margin-bottom: 20px;
 }
-.images a, .ending a {
+.images a, .ending a, .footer a {
     color: aqua;
 }
 img {
